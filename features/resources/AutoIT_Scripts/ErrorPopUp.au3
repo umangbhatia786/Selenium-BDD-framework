@@ -1,0 +1,6 @@
+Sleep(3000)
+WinActivate("Error with Proxy - 502")
+ControlClick("Error with Proxy - 502","OK","Button1")
+Sleep(2000)
+WinActivate("Validation Error")
+ControlClick("Validation Error","OK","Button1")
